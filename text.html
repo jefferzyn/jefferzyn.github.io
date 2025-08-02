@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parkway Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background-color: #f9fafb;
+    }
+
+    header {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .feature h3 {
+      margin-bottom: 0.5rem;
+      color: #1d4ed8;
+    }
+
+    .cta {
+      background: #1d4ed8;
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .cta h2 {
+      margin-bottom: 1rem;
+    }
+
+    .cta button {
+      background: white;
+      color: #1d4ed8;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .cta button:hover {
+      background: #e0e7ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Parkway</h1>
+    <p>Your modern solution for smarter commuting and urban travel.</p>
+  </header>
+
+  <section>
+    <h2>Why Parkway?</h2>
+    <p>Parkway integrates intelligent transport with real-time updates, green options, and smooth navigation across the city. Whether you’re commuting or exploring, Parkway gets you there faster and cleaner.</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Real-Time Updates</h3>
+        <p>Know exactly when your next ride arrives. Live updates powered by accurate GPS data.</p>
+      </div>
+      <div class="feature">
+        <h3>Eco-Friendly Routes</h3>
+        <p>Reduce your carbon footprint by selecting optimized green travel paths and public transit.</p>
+      </div>
+      <div class="feature">
+        <h3>Seamless Experience</h3>
+        <p>Easy-to-use interface, minimal wait times, and full control over your travel schedule.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Join Parkway Today</h2>
+    <p>Experience smarter, cleaner commuting. It’s time to move forward.</p>
+    <button>Get Started</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Parkway Inc. All rights reserved.
+  </footer>
+
+</body>
+</html>
