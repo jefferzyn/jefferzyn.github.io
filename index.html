@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jefferzyn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background-color: #f9fafb;
+    }
+
+    header {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .feature h3 {
+      margin-bottom: 0.5rem;
+      color: #1d4ed8;
+    }
+
+    .cta {
+      background: #1d4ed8;
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .cta h2 {
+      margin-bottom: 1rem;
+    }
+
+    .cta button {
+      background: white;
+      color: #1d4ed8;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .cta button:hover {
+      background: #e0e7ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Jefferzyn</h1>
+    <p>Personal website and portfolio.</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>Welcome to my personal website. This site showcases my work, projects, and interests.</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Projects</h3>
+        <p>Explore my latest projects and technical work across various domains and technologies.</p>
+      </div>
+      <div class="feature">
+        <h3>Blog</h3>
+        <p>Read my thoughts on technology, development, and other topics of interest.</p>
+      </div>
+      <div class="feature">
+        <h3>Contact</h3>
+        <p>Get in touch for collaboration opportunities or just to say hello.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Get In Touch</h2>
+    <p>Interested in collaborating or learning more about my work?</p>
+    <button>Contact Me</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Jefferzyn. All rights reserved.
+  </footer>
+
+</body>
+</html>
